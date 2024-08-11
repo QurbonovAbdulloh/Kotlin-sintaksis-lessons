@@ -101,5 +101,80 @@ fun main() {
         }
     }*/
 
+    //    var i = 0
+//    while (i < 5) {
+//        if (i == 2) {
+//            i++
+//            continue
+//        }
+//        println(i)
+//        i++
+//    }
+
+//    var b = 0
+//    while (b < 5) {
+//        if (b == 2) {
+//            b++
+//            break
+//        }
+//        println(b)
+//        b++
+//    }
+
+//    myloop@ for (x in 'A'..'D') {
+//        for (n in 1..4) {
+//            if (n == 2 || n == 4)
+//                continue@myloop
+//            println("$x and $n")
+//        }
+//    }
+
+    /*here@ for (i in 1..5) {
+        for (j in 1..4) {
+            if (i == 3 || j == 2)
+                continue@here
+            println("i = $i; j = $j")
+        }
+    }*/
+
+    /*  for (i in 1..10) {
+          if (i == 5) {
+              break
+          }
+          println(i)
+      }*/
+
+    /* var sum = 0
+     var number: Int
+     while (true) {
+         print("Enter a number: ")
+         number = readLine()!!.toInt()
+         if (number == 0)
+             break
+         sum = sum + number
+     }
+     print("Sum = $sum")*/
+    /* var sum = 0
+     var number: Int
+     while (true) {
+         print("Enter a number: ")
+         number = readLine()!!.toInt()
+         if (number == 0)
+             break
+         sum += number
+     }
+     print("sum = $sum")*/
+
+  /*  first@ for (i in 1..4) {
+        second@ for (j in 1..2) {
+            println("i = $i; j = $j")
+            if (i == 2)
+                break@first
+        }
+    }*/
+
+    print("Nimadur")
+
+
 }
 
